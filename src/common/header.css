@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #e4e6e9;
+}
+
+ul>li {
+    list-style: none;
+}
+
+.grey {
+    color: gray !important;
+}
+
+.purple {
+    color: purple !important;
+}
+
+.green {
+    color: green !important;
+}
+
+.light-blue {
+    color: #93cbf9 !important;
+}
+
+.ace {
+    line-height: 50px;
+}
+
+.ace>ul>li {
+    /* line-height: 45px; */
+    padding: 0 5px 0 5px;
+    float: right;
+    position: relative;
+}
+
+.ace-nav>li.grey {
+    background: #555;
+}
+
+.ace-nav>li.purple {
+    background: #892e65;
+}
+
+.ace-nav>li.green {
+    background: #2e8965;
+}
+
+.ace-nav>li.light-blue {
+    background: #62a8d1;
+}
+
+.dropdown-menu {
+    padding: 0;
+    width: 240px;
+    border-color: #bcd4e5;
+    box-shadow: 0 2px 4px rgba(30, 30, 100, 0.25);
+}
+
+.dropdown-menu>li>a {
+    font-size: 12px;
+    line-height: 16px;
+    background: #fff;
+    padding: 0;
+    line-height: 30px;
+    /* color: #fff !important; */
+}
+
+.progress {
+    margin: 0;
+    width: 246px;
+    height: 6px;
+}
+
+.dropdown-menu>li>a>.progress-bar {
+    margin: 0;
+}
+
+.dropdown-navbar {
+    width: 270px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: #bcd4e5;
+    box-shadow: 0 2px 4px rgba(30, 30, 100, 0.25);
+}
+
+.navbar {
+    background: #438eb9;
+    margin-bottom: 0;
+}
+
+.ace a {
+    color: #fff;
+}
+
+.ace-nav {
+    margin-bottom: 0;
+}
+
+
+/* sibar */
+
+.sidebar {
+    width: 189px;
+    position: absolute;
+    margin-left: 0;
+    margin-top: 0;
+    border-right: 1px solid #CCC;
+    background-color: #FFF;
+}
+
+.sidebar>.nav-list>li {
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-top: 1px solid #fcfcfc;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+}
+
+#content {
+    margin-left: 190px;
+}
+
+.nav-list>li>a,
+ul>li {
+    color: #585858;
+}
+
+.nav-list>li.open {
+    border-bottom-color: #e5e5e5;
+}
+
+.submenu {
+    background-color: #fafafa;
+    margin-left: 25px;
+    padding-left: 10px;
+    border-left: 1px dashed #b1c9e0;
+    margin-left: 0;
+}
+
+.nav-list>li>.submenu>li::before {
+    display: inline-block;
+    content: "";
+    width: 6px;
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    border-top: 1px dashed #b1c9e0;
+}
+
+.ace-container {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    background: #FFF;
+    /* padding: 8px 20px 24px; */
+}
+
+.ace-container>ol>li {
+    float: left;
+}

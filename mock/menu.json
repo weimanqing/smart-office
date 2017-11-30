@@ -1,0 +1,23 @@
+{
+    "menus": [{
+            "name": "Dashboard",
+            "url": "index"
+        },
+        {
+            "name": "Typography",
+            "url": "typography"
+        },
+        {
+            "name": "UI Elements",
+            "submenu": [{
+                    "name": "Elements",
+                    "url": "Elements"
+                },
+                {
+                    "name": "Buttons & Icons",
+                    "url": "buttons"
+                }
+            ]
+        }
+    ]
+}

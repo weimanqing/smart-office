@@ -11,6 +11,7 @@
             <bread :routeStr="dynamicSegment"></bread>
             <div class="">
                 <div class="col-md-12">
+                    hello
                     <h1>{{dynamicSegment}}</h1>
                     <keep-alive>
                         <router-view></router-view>
